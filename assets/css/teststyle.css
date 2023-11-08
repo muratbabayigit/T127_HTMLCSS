@@ -1,0 +1,31 @@
+/* Shift+Alt+A yorum satırı formatını getirir */
+
+
+
+h1 {
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    border: 3px double red;
+    border-radius: 10px;
+    text-shadow: 10px 10px 5px gray;
+    box-shadow: 10px 10px 5px yellowgreen;
+    
+}
+
+* {
+    text-align: center;
+    color: darkgreen;
+}
+
+a{
+    color: rgb(147, 255, 5);
+    text-decoration:none;
+    font-size: 25px;
+}
+
+.t127 {
+    color: darkblue;
+    font-size: 40px;
+}
