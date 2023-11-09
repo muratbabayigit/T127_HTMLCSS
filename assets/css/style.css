@@ -1,0 +1,121 @@
+/*   Yorum Satırı */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(148, 219, 241);
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+input, textarea{
+    border: 3px solid rgb(39, 80, 114);
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    
+}
+
+button{
+    background-color: rgb(15, 55, 78);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.header {
+    display: flex; /* default (varsayılan ayar) olarak row yapar flex-direction yazmaya gerek yok */
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(15, 55, 78);
+    background-color: rgb(34, 90, 122);
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px dotted darkblue;
+    color: rgb(19, 67, 116);
+    padding: 30px 20px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.menu a {
+    font-weight:800;
+    font-size: 22px;
+}
+
+.menu a:visited {
+    color:antiquewhite;
+}
+
+.menu a:hover {
+    color:chocolate;
+}
+
+.content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    
+}
+.content .about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    width: 60%;
+}
+
+.about img {
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(19, 67, 116);
+    border-radius: 250px;
+}
+
+.section {
+   width: 60%;
+}
+.section .card {
+    display: flex;
+    border: 3px solid rgb(19, 67, 116);
+    border-radius: 10px; 
+    background-color: rgb(178, 247, 224);
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.section .card .left {
+    flex:2
+}
+.section .card .right {
+    flex:2
+}
+
+.contactForm {
+ 
+    width: 60%;
+
+}
